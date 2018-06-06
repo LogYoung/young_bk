@@ -176,5 +176,37 @@
 							]
 					
 					}
+	},
+	{
+		"title":"javascript:Array 对象的一些操作方法",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"整理了一些Array 的操作方法，用来处理数据",
+		"time":"2018-5-30",
+		"smtitle":"jsArray对象",
+		"textdata":{"id":10,
+					"title":"javascript:Array 对象的一些操作方法",
+					"author":"YOUNG",
+					"time":"2018-5-30",
+					"indp":["因为经常在我们的工作和平时应用需求当中需要对字符串，数组，对象等等数据去进行一系列的操作。所以在这里整理一下。今天我们来整理的就是Array数组对象的操作方法",
+							"那么就开始我们的整理吧。"
+							]
+					
+					}
+	},
+	{
+		"title":"AJAX 跨域解决方案",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"AJAX 跨域问题，也是我们日常工作中经常遇见的问题。",
+		"time":"2018-6-5",
+		"smtitle":"AJAX跨域问题",
+		"textdata":{"id":11,
+					"title":"AJAX 跨域解决方案",
+					"author":"YOUNG",
+					"time":"2018-6-5",
+					"indp":["偶然的一次项目整理中，需要吧几个页面的表单整合在一起，因为网站不同从而出现了跨域问题，于是乎我开始查阅一些跨域的问题资料",
+							"整理了几种跨域的方式，如下...."
+							]
+					
+					}
 	}
 ]

@@ -40,7 +40,7 @@ import Rightsmlist from "@/components/Rightsmlist"
 				 	 this.errinfo="数据请求错误，请尝试从新加载页面"
 				 }else{
 				 	this.listdata=res.data
-				 	this.liheight=(res.data.length+1)*16+25+"px"
+				 	this.liheight=(res.data.length+1)*17+25+"px"
 				 	console.log(this.liheight)
 				 }
 			})
