@@ -80,6 +80,34 @@ $.get(
         $("#viewer").html(response);
 });
 		</pre>
+		<h2>这个代理我们当然也可以自己在本地服务器上进行启动这样，就不用怕访问别人的服务器会出现问题。首先在github上下载<b>cors-anywhere-master</b>项目下来，
+	打开项目中的server文件，</h2>
+	<pre>
+接下来我们可以看到抬头的俩个变量代码
+var host = process.env.HOST || '192.168.0.6';   //输入我们需要作为服务器的主机ip
+
+var port = process.env.PORT || 8099;   //需要作为服务器的主机端口
+
+可以像我这样去填写好自己的服务器ip和想要使用的端口，
+填写之后node server 启动服务器。这样你的服务器已经启动起来了，
+我们就可以直接连接到服务器上进行一个中转跨域的操作了。
+上面的代码就应该写成
+$.ajaxPrefilter( function (options) {
+  if (options.crossDomain && jQuery.support.cors) {
+    var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+    options.url = http + '//192.168.0.6:8099/' + options.url;
+    //  填写上自己设置的服务器地址后，就可以完美运行了
+  }
+});
+配置好上面的代码后，直接使用$.get等就可以进行跨域访问了
+$.get(
+    'http://en.wikipedia.org/wiki/Cross-origin_resource_sharing',
+    function (response) {
+        console.log("> ", response);
+        $("#viewer").html(response);
+});
+	</pre>
+		
 	</div>
 </template>
 
