@@ -33,6 +33,9 @@
 		<div class="idbox" v-if="idflag == 11">
 			<id11></id11>
 		</div>
+		<div class="idbox" v-if="idflag == 12">
+			<id12></id12>
+		</div>
 	</div>
 </template>
 
@@ -46,6 +49,7 @@ import Id8 from "@/components/Id8"
 import Id9 from "@/components/Id9"
 import Id10 from "@/components/Id10"
 import Id11 from "@/components/Id11"
+import Id12 from "@/components/Id12"
 	export default{
 		name:"Nbooktext",
 		beforeRouteUpdate(to,from,next){
@@ -87,7 +91,7 @@ import Id11 from "@/components/Id11"
 			
 		},
 		components:{
-			Id0,Id1,Id2,Id6,Id7,Id8,Id9,Id10,Id11
+			Id0,Id1,Id2,Id6,Id7,Id8,Id9,Id10,Id11,Id12
 		}
 	}
 </script>

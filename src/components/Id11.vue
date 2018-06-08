@@ -225,7 +225,7 @@ $.get(
 			color:#999999;
 			}
 		pre	{
-			width:765px;
+			width:90%;
 			margin: 15px 0 0 0;
 			padding: 20px;
 			border: 0;

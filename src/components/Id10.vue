@@ -323,6 +323,16 @@ var mapnum=numbers.map(function(num){
 		    padding-bottom: 7px;
 		    vertical-align: top;
 		}
+		pre	{
+			width:90%;
+			margin: 15px 0 0 0;
+			padding: 20px;
+			border: 0;
+			border: 1px dotted #785;
+			background: #f5f5f5;
+			line-height:1.4;
+			font-family:Consolas;
+			}
 		h1{
 			font-size: 20px;
 			font-weight: 600;

@@ -38,6 +38,16 @@ import Nbooklist from "@/components/Nbooklist"
 				 	 this.errinfo="数据请求错误，请尝试从新加载页面"
 				 }else{
 				 	this.listdata=res.data
+				 	var objectArraySort = function (keyName) {
+			 		  return function (objectN, objectM) {
+						  var valueN = objectN[keyName] 
+						  var valueM = objectM[keyName] 
+						  if (valueN < valueM) return 1 //从大到小排序
+						  else if (valueN > valueM) return -1
+						  else return 0
+					 	}
+					}
+					this.listdata.sort(objectArraySort('id'))
 				 }
 			})
 		},
