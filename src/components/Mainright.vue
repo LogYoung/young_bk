@@ -50,7 +50,7 @@ import Rightsmlist from "@/components/Rightsmlist"
 					 	}
 					}
 					this.listdata.sort(objectArraySort('id'))
-				 	this.liheight=(res.data.length+1)*17+25+"px"
+				 	this.liheight=(res.data.length+1)*25+25+"px"
 				 }
 			})
 		},
