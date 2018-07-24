@@ -272,5 +272,23 @@
 							]
 					
 					}
+	},
+	{
+		"title":"通过nodejs吧网页挂在局域网和提供后台数据接口",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"在现在的网页应用中，我们时常会看到很多很多的图表，表格等很多数据显示方式.....",
+		"time":"2018-7-20",
+		"id":15,
+		"smtitle":"Nodejs 搭建服务器后台",
+		"textdata":{"id":15,
+					"title":"Nodejs web服务器和后台",
+					"author":"YOUNG",
+					"time":"2018-7-24",
+					"indp":["今天来整理一下nodejs 的运用，偶然的情况，需要用到ajax长连接，于是乎想了一下干脆自己用nodejs 去搭建一个后台服务器上吧。",
+						    "就来整理一下node的运用，首先今天说一下node 的俩种运用方式，第一个当然就是如何把你的本地页面挂在到局域网上，第二种就是搭建一个简易的后台可以通过ajax去访问后台拿到数据。"
+						
+							]
+					
+					}
 	}
 ]
